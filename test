@@ -1,0 +1,11 @@
+#!/bin/bash
+
+echo "This is your current working dir"
+pwd
+
+echo "this is the version of linux you are running"
+uname -a 
+
+echo "these are the logged in users"
+w
+
