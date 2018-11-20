@@ -12,9 +12,9 @@ connections=$( netstat | grep tcp)
 #prints 
 users=$(who)
 
-echo "this is a snap shot of your current system:
+echo -en "this is a snap shot of your current system:
 
-  Disk used: $diskused
+ /e34  Disk used: ${diskused}
   
   free memory: $memfree
   
@@ -25,3 +25,4 @@ echo "this is a snap shot of your current system:
 "
 
 color info: 
+https://misc.flogisoft.com/bash/tip_colors_and_formatting 
