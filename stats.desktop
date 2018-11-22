@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=0.1
+Name=Surf
+Comment=generated program 
+Exec=/usr/bin/gnome-terminal -e "bash -c 'usr/local/bin/stats; bash'"
+Icon=/home/dog/Desktop/Small-mario.png
+Terminal=false 
+Type=Application
+Categories=Utility;Application; 
